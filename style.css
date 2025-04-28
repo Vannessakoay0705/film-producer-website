@@ -1,0 +1,128 @@
+/* ====== General Page Styling ====== */
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* ====== Header Styling ====== */
+header {
+    background-color: #111;
+    color: #f1c40f;
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+/* ====== Navigation Bar Styling ====== */
+nav {
+    background-color: #f1c40f;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 25px;
+    transition: color 0.4s;
+}
+
+nav a:hover {
+    color: #555;
+}
+
+/* ====== Main Section Styling ====== */
+main {
+    background: white;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 60px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    animation: fadeIn 1.5s;
+}
+
+/* ====== Fade In Animation ====== */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+/* ====== Footer Styling ====== */
+footer {
+    background-color: #111;
+    color: #f1c40f;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 14px;
+}
+
+/* ====== Image Styling ====== */
+img {
+    display: block;
+    max-width: 300px;
+    margin: 20px auto;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* ====== Two Column Layout ====== */
+.two-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.two-column img {
+    flex: 1 1 40%;
+}
+
+.two-column div {
+    flex: 1 1 55%;
+}
+
+/* ====== Table Styling (Inspiration Page) ====== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+th {
+    background-color: #f1c40f;
+    color: #111;
+    font-size: 18px;
+}
+
+td img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* ====== Lists ====== */
+ul, ol {
+    font-size: 18px;
+    padding-left: 40px;
+}
