@@ -1,0 +1,123 @@
+/* General page styling */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #222;
+    color: #f7c59f;
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* 3D shadow */
+}
+
+/* Special animation for homepage title */
+header h1 {
+    animation: zoomIn 1.2s ease-out;
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #f7c59f;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Light shadow */
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #a0522d;
+}
+
+/* Main content styling */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Deep 3D shadow */
+    animation: fadeIn 1s ease-in; /* Fade-in animation */
+}
+
+/* Fade-in animation for main */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Footer styling */
+footer {
+    background-color: #222;
+    color: #f7c59f;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.4);
+    font-size: 14px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #f7c59f;
+    color: #222;
+}
+
+/* Hover effect on table rows */
+table tr:hover {
+    background-color: #f0e6d6;
+    transition: background-color 0.3s;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #f7c59f;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* 3D image shadow */
+}
+
+/* Extra: Smooth hover on images (optional) */
+img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}
