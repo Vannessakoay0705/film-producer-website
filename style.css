@@ -21,7 +21,7 @@ header {
     font-size: 36px;
     letter-spacing: 2px;
     animation: fadeSlideIn 1.5s ease forwards;
-    background-image: url('images/film-grain-texture.png'); /* add a soft film grain image */
+    background-image: url('images/film-grain-texture.png');
     background-size: cover;
     background-blend-mode: overlay;
 }
