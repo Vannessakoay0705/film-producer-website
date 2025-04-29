@@ -5,7 +5,7 @@ html {
 
 body {
     font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
-    background-color: #FCFAF2;
+    background-color: #F5F5F5;
     margin: 0;
     padding: 0;
     color: #333333;
@@ -14,7 +14,7 @@ body {
 
 /* ====== Header Styling ====== */
 header {
-    background: #2C3E50;
+    background: #2E2E2E;
     color: #D4AF37;
     text-align: center;
     padding: 60px 20px;
@@ -25,15 +25,15 @@ header {
 
 /* ====== Navigation Bar Styling ====== */
 nav {
-    background-color: #FCFAF2;
+    background-color: #F5F5F5;
     padding: 20px 0;
     text-align: center;
 }
 
 nav a {
     text-decoration: none;
-    color: #2C3E50;
-    font-weight: 600;
+    color: #2E2E2E;
+    font-weight: bold;
     font-size: 18px;
     margin: 0 20px;
     position: relative;
@@ -56,12 +56,12 @@ nav a:hover::after {
 
 /* ====== Main Section Styling ====== */
 main {
-    background: white;
+    background: #ffffff;
     max-width: 1100px;
     margin: 50px auto;
     padding: 60px 40px;
     border-radius: 16px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
     opacity: 0;
     transform: translateY(30px);
     animation: fadeInMain 1.5s ease-out forwards;
@@ -69,7 +69,7 @@ main {
 
 /* ====== Footer Styling ====== */
 footer {
-    background: #2C3E50;
+    background: #2E2E2E;
     color: #ffffff;
     text-align: center;
     padding: 25px 0;
@@ -87,13 +87,13 @@ img {
     margin: 20px auto;
     height: auto;
     border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
     transition: transform 0.4s, box-shadow 0.4s;
 }
 
 img:hover {
-    transform: scale(1.02);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
 /* ====== Two Column Layout ====== */
@@ -128,7 +128,7 @@ th, td {
 
 th {
     background-color: #D4AF37;
-    color: #2C3E50;
+    color: #2E2E2E;
     font-size: 18px;
 }
 
