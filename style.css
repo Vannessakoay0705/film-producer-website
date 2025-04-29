@@ -62,13 +62,20 @@ main {
 /* ====== Footer Styling ====== */
 footer {
     background: linear-gradient(to top, #111 0%, #222 100%);
-    color: #f1c40f;
+    color: #ffffff; /* CHANGE TO WHITE */
     text-align: center;
     padding: 25px 0;
     font-size: 14px;
     background-image: url('images/film-grain-texture.png');
     background-size: cover;
     background-blend-mode: overlay;
+}
+
+footer p {
+    background: rgba(0, 0, 0, 0.5); /* Slight black box with 50% transparency */
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 10px;
 }
 
 /* ====== Image Styling ====== */
